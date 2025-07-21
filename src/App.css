@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0d1117, #0f172a);
+  color: #c9d1d9;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(14px); /* ✅ Prefix first */
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 242, 255, 0.1);
+  width: 90%;
+  max-width: 500px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #00f2ff;
+  text-shadow: 0 0 5px #00f2ff88;
+  letter-spacing: 1px;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.text {
+  flex-grow: 1;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #00f2ff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  outline: none;
+  letter-spacing: 1px;
+
+}
+
+.text:focus {
+  border-color: #00f2ff99;
+  box-shadow: 0 0 5px #00f2ff49;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  background-color: #00f2ff;
+  color: #0f172a;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 0 10px #00f2ff3c;
+}
+
+button:hover {
+  background-color: #00cfff;
+  box-shadow: 0 0 15px #00f2ff5c;
+}
+
+.lower-content-range,
+.lower-content-num,
+.lower-content-Char {
+  margin-bottom: 1rem;
+}
+
+.range {
+  width: 100%;
+  accent-color: #00f2ff;
+}
+
+label {
+  margin-left: 0.5rem;
+  font-size: 0.95rem;
+  color: #c9d1d9;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+  accent-color: #00f2ff;
+}
